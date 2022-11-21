@@ -17,7 +17,7 @@ public class GetObject
     private static async void ReadObjectDataAsync(IAmazonS3 s3Client, string bucketName, string keyName)
     {
         string responseBody = string.Empty;
-        
+
         try
             {
                 GetObjectRequest request = new GetObjectRequest
