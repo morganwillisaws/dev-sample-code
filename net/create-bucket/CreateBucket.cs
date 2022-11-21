@@ -21,7 +21,7 @@ public class CreateBucket
             };
 
             var putBucketResponse = await s3Client.PutBucketAsync(putBucketRequest);
-
+            Console.WriteLine("hello");
         }
         catch (AmazonS3Exception ex)
         {
